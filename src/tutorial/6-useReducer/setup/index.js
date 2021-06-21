@@ -11,7 +11,7 @@ const defaultState = {
   modalContent:''
 }
 const Index = () => {
-  const [name, setName] = useState('');sdffg
+  const [name, setName] = useState('');
   const [state, dispatch] = useReducer(reducer,defaultState);
   // const [people, setPeople] = useState(data);
   // const [showModal, setShowModal] = useState(false);
